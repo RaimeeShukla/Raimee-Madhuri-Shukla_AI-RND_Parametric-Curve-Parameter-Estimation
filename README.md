@@ -60,5 +60,5 @@ The initial algorithm formulated is provided in algorithm/initial_algorithm.png
 Dataset Vizualization:
 Next, I plotted the curve with the given data points from the csv file. The plot is stored in path dataset/plot_xy_data.png
 
-Initial Conclusion:
-Based on the initial research, optimization-based approaches appear more suitable than exhaustive search because the assignment requires estimating only three continuous parameters while minimizing an error metric between the observed and predicted curves.
+Updated Conclusion:
+The implemented loss function computes the average L1 distance between corresponding points of the generated and observed curves. This objective function will be minimized during parameter estimation.

@@ -1,6 +1,6 @@
 import numpy as np
 
-def generate_curve(theta_deg, M, X, t_start=6, t_end=60, num_points=1501):
+def generate_curve(theta_deg, M, X, t_start=6, t_end=60, num_points=1500):
     """
     Parameters:
     1) theta_deg : float -> Rotation angle in degrees.
