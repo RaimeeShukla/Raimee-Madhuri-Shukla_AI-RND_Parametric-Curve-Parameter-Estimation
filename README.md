@@ -150,6 +150,12 @@ Final M : 0.020000000000000004
 Final X : 54
 Final Loss : 25.256421442724314
 
+## Final Equation 
+\left(t\cdot\cos\left(0.4887\right)-e^{\left(0.02\cdot\left|t\right|\right)}\cdot\sin\left(0.3\cdot t\right)\cdot\sin\left(0.4887\right)+54,\ 42+t\cdot\sin\left(0.4887\right)+e^{\left(0.02\cdot\left|t\right|\right)}\cdot\sin\left(0.3\cdot t\right)\cdot\cos\left(0.4887\right)\right)
+
+## Demos Link 
+https://www.desmos.com/calculator/ie2wauum3h
+
 ---
 
 # Result Visualization
