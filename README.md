@@ -99,12 +99,12 @@ Start with an initial estimate of the parameters and optimize one parameter at a
 ## 3. Gradient Descent - 
 Gradient Descent is an iterative optimization algorithm that updates the parameter values in the direction that most rapidly decreases the objective function. Starting from an initial estimate, the parameters are repeatedly updated until the loss converges or no significant improvement is observed.
 
-   Advantage: More efficient than exhaustive search for continuous optimization problems.
+   Advantage - More efficient than exhaustive search for continuous optimization problems.
 
 ## 4. Stochastic Gradient Descent - 
 Instead of computing the gradient using the entire dataset at every iteration, SGD estimates the gradient using only a small subset of the data. This significantly reduces the computational cost of each iteration and often leads to faster optimization on large datasets.
 
-   Advantage: Lower computational cost per iteration compared to standard Gradient Descent.
+   Advantage - Lower computational cost per iteration compared to standard Gradient Descent.
 
 ---
 
@@ -157,7 +157,7 @@ final_curve.png shows the original and the predicted curve comparison.
 
 ---
 
-# Future Explorations
+# Future Improvements
 - Gradient Descent as an optimization technique instead of evaluating all parameter combinations
 - Experiment with different step sizes for θ, M and X to balance computation time and accuracy
 - Explore alternative loss functions, like L2 loss and compare their effect on parameter estimation
